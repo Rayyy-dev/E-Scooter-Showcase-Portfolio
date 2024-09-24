@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Scooter Showcase</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">E-Scoot</div>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#products">Products</a>
+            <a href="#features">Features</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="product-showcase">
+            <div class="product-image">
+                <img src="e-scooter-1.jpg" alt="E-Scooter Model X" id="product-img">
+                <div class="image-nav">
+                    <button id="prev-img"><i class="fas fa-chevron-left"></i></button>
+                    <button id="next-img"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+            <div class="product-info">
+                <h1 id="product-name">E-Scooter Model X</h1>
+                <p id="product-price">$999.99</p>
+                <p id="product-description">Experience the future of urban mobility with our cutting-edge e-scooter.</p>
+                <button class="cta-button">Buy Now</button>
+                <p class="promo-message">Limited Edition available! <a href="#" class="read-more">Read More</a></p>
+            </div>
+        </section>
+
+        <section id="features">
+            <h2>Key Features</h2>
+            <div class="feature-grid">
+                <div class="feature-item">
+                    <i class="fas fa-battery-full"></i>
+                    <h3>Long Battery Life</h3>
+                    <p>Up to 40 miles on a single charge</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-tachometer-alt"></i>
+                    <h3>High Speed</h3>
+                    <p>Reach speeds up to 20 mph</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>Smart App</h3>
+                    <p>Control and monitor via smartphone</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-leaf"></i>
+                    <h3>Eco-Friendly</h3>
+                    <p>Zero emissions for a greener future</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form id="contact-form">
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Message" required></textarea>
+                <button type="submit" class="cta-button">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 E-Scoot. All rights reserved.</p>
+        <div class="social-links">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

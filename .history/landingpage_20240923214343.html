@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Future Scoot - E-Scooter Showcase</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Future Scoot</h1>
+        <nav>
+            <a href="#models">Models</a>
+            <a href="#features">Features</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <h2>The Future of Urban Mobility</h2>
+            <p>Experience the revolution in personal transportation</p>
+            <div id="scooter-3d"></div>
+        </section>
+
+        <section id="models">
+            <h2>Our Models</h2>
+            <div class="scooter-grid">
+                <div class="scooter-card" data-model="X1">
+                    <h3>X1 Speedster</h3>
+                    <img src="scooter-x1.jpg" alt="X1 Speedster">
+                    <p>Sleek and fast, perfect for the urban commuter</p>
+                </div>
+                <div class="scooter-card" data-model="Y2">
+                    <h3>Y2 Cruiser</h3>
+                    <img src="scooter-y2.jpg" alt="Y2 Cruiser">
+                    <p>Comfortable and stable, ideal for longer rides</p>
+                </div>
+                <div class="scooter-card" data-model="Z3">
+                    <h3>Z3 Off-Roader</h3>
+                    <img src="scooter-z3.jpg" alt="Z3 Off-Roader">
+                    <p>Rugged and powerful, conquer any terrain</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="features">
+            <h2>Cutting-Edge Features</h2>
+            <ul>
+                <li>AI-powered route optimization</li>
+                <li>Self-balancing technology</li>
+                <li>Eco-friendly materials</li>
+                <li>Integrated smart display</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Get in Touch</h2>
+            <form id="contact-form">
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Future Scoot. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
