@@ -1,4 +1,4 @@
-Welcome to my E-Scooter Showcase Website!
+Welcome to my** E-Scooter Showcase Website!**
 
 This project highlights a clean, modern design for an electric scooter product webpage.
 
